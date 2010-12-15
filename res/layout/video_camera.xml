@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/video_camera" android:background="@drawable/camera_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.camera">
+    <com.android.camera.PreviewFrameLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/frame" android:background="@drawable/border_view_finder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera.FocusRectangle android:layout_gravity="center" android:id="@id/focus_rectangle" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <ImageView android:id="@id/video_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="23.0dip" android:textStyle="bold" android:textColor="@color/recording_time_elapsed_text" android:gravity="left|center" android:layout_gravity="bottom|left|center" android:id="@id/recording_time" android:paddingRight="2.0dip" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginBottom="13.0dip" android:shadowColor="#c0000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:drawableLeft="@drawable/ic_recording_indicator" android:drawablePadding="8.0dip" />
+        </FrameLayout>
+    </com.android.camera.PreviewFrameLayout>
+</LinearLayout>

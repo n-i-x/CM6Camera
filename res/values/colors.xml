@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="recording_time_elapsed_text">#ffffffff</color>
+    <color name="recording_time_remaining_text">#ffff0033</color>
+</resources>

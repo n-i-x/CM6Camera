@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/camera" android:background="@drawable/camera_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.camera">
+    <com.android.camera.PreviewFrameLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/frame" android:background="@drawable/border_view_finder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.camera.FocusRectangle android:layout_gravity="center" android:id="@id/focus_rectangle" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+        </FrameLayout>
+    </com.android.camera.PreviewFrameLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="control_bar">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="btn_retake">false</item>
+    <item type="id" name="btn_play">false</item>
+    <item type="id" name="shutter_button">false</item>
+    <item type="id" name="btn_done">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="frame_layout">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="camera_preview">false</item>
+    <item type="id" name="focus_rectangle">false</item>
+    <item type="id" name="review_thumbnail">false</item>
+    <item type="id" name="camera_switch_set">false</item>
+    <item type="id" name="video_switch_icon">false</item>
+    <item type="id" name="camera_switch">false</item>
+    <item type="id" name="camera_switch_icon">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="video_camera">false</item>
+    <item type="id" name="video_frame">false</item>
+    <item type="id" name="recording_time">false</item>
+</resources>

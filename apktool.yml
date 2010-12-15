@@ -1,0 +1,7 @@
+version: 1.3.2
+apkFileName: Camera.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: cm6fw
